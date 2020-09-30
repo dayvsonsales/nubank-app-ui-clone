@@ -13,7 +13,7 @@ import Home from './pages/Home';
 const App = () => {
     return (
         <>
-            <StatusBar backgroundColor="#ffff" barStyle="light-content" />
+            <StatusBar backgroundColor="#8b10ae" barStyle="light-content" />
             <Home />
         </>
     );

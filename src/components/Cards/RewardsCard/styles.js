@@ -63,8 +63,8 @@ export const Footer = styled.View`
     margin-bottom: 24px;
 `;
 
-export const FooterButton = styled.TouchableOpacity`
-    border: 1px solid rebeccapurple;
+export const FooterButton = styled.TouchableHighlight`
+    border: 1px solid #8b10ae;
     padding-top: 14px;
     padding-bottom: 14px;
     padding-left: 64px;
@@ -74,6 +74,6 @@ export const FooterButton = styled.TouchableOpacity`
 
 export const FooterButtonText = styled.Text`
     text-transform: uppercase;
-    color: rebeccapurple;
+    color: #8b10ae;
     font-weight: bold;
 `;

@@ -16,7 +16,10 @@ const Home = () => {
             <Header name="Dayvson Sales" />
             <UserOptions />
             <ScrollContent>
-                <ScrollView horizontal={false} scrollEventThrottle={16}>
+                <ScrollView
+                    indicatorStyle="white"
+                    horizontal={false}
+                    scrollEventThrottle={16}>
                     <CreditCard />
                     <NuContaCard />
                     <RewardsCard />

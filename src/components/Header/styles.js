@@ -1,5 +1,7 @@
 import styled from 'styled-components/native';
 
+import { Platform } from 'react-native';
+
 export const Container = styled.View`
     flex: 1;
     flex-direction: row;
@@ -8,7 +10,7 @@ export const Container = styled.View`
 `;
 
 export const WrapperContainer = styled.SafeAreaView`
-    margin-top: 50px;
+    margin-top: ${(prop) => (Platform.OS === 'ios' ? '50px' : '20px')};
     height: 40px;
 `;
 

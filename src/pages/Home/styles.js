@@ -3,9 +3,10 @@ import styled from 'styled-components/native';
 export const Container = styled.View`
     flex: 1;
     flex-direction: column;
-    background: rebeccapurple;
+    justify-content: space-between;
+    background: #8b10ae;
 `;
 
 export const ScrollContent = styled.View`
-    height: 65%;
+    height: 70%;
 `;

@@ -9,7 +9,10 @@ import OptionCard from '../../components/Cards/OptionCard';
 const FooterOptions = () => {
     return (
         <Container>
-            <ScrollView horizontal>
+            <ScrollView
+                horizontal
+                showsHorizontalScrollIndicator={false}
+                overScrollMode="always">
                 <OptionCard name="Indicar amigos" icon="account-plus" />
                 <OptionCard name="Pagar" icon="barcode" />
                 <OptionCard name="Transferir" icon="bank-transfer-out" />
