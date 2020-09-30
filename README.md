@@ -4,4 +4,4 @@ This is a simple UI clone of Nubank's mobile application. It contains only the m
 
 ## Screenshots
 
-<img src=".github/assets/01.png" width="250px" /> <img src=".github/assets/02.png" width="250px" />
+<img src=".github/assets/02.png" width="250px" /> <img src=".github/assets/01.png" width="250px" />
